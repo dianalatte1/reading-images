@@ -6,6 +6,7 @@ img = cv2.imread("tulips.jpg")
 # syntax: cv2.imshow(window_name, image)
 cv2.imshow("Mostrar imagen", img)
 # print(img)
+# print(img.shape )
 # converting to gray image
 # cvtColor() is used to covert an image from one color space to another
 # syntax: cv2.cvtColor(src, code[, dst[, dstCn]])
